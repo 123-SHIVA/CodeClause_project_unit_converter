@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+
+    <!-- ---------------------Css Link-------------- -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Unit Converter</h2>
+        <div class="converter-box">
+
+            <div>
+                <select class="select-unit" id="selected-unit">
+                    <option value=""  >choose unit</option>
+                    <option value="length" default >length</option>
+                    <option value="time">time</option>
+                    <option value="temperature">temperature</option>
+                    <option value="speed">speed</option>
+                    <option value="area">area</option>
+                    <option value="volume">volume</option>
+                    <option value="energy">energy</option>
+                    <option value="mass">mass</option>
+                </select>
+            </div>
+
+            <div class="input-value-container">
+
+                <div class="first-value-box">
+                    <input type="text" id="first-value" value="">
+                    <select class="select-first-unit"  id="select-first">
+                    </select>
+                    
+                </div>
+                <h2>=</h2>
+                <div class="second-value-box">
+                    <input type="text" id="second-value" value="">
+                    <select class="select-second-unit" id="select-second">
+                       
+                    </select>
+                    
+                </div>
+                
+            </div>
+
+            <p> </p>
+
+        </div>
+
+    </div>
+
+
+
+<!-- _--------------------javascript ------------------------ -->
+<script src="script.js"></script>
+    
+</body>
+</html>
